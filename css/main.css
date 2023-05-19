@@ -1,0 +1,70 @@
+/* CSS Variables */
+:root {
+  --bg-body: #353535;
+  --bg-card: #444444;
+  --body-card-color: #f8f9fa;
+  --grey-dark: #292929;
+  --dark: #202020;
+  --light: #fff;
+  --green: #149b60;
+  --blue: #006ca3;
+  --grey: #3d4042;
+  --primary-font: 'Open Sans', sans-serif;
+  --text: 'Roboto', sans-serif;
+  --shadow: 0 1px 5px rgba(68, 68, 68, 0.8);
+  --nav-height: 64px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--primary-font) !important;
+}
+
+body {
+  background: var(--bg-body);
+  line-height: 1.4;
+}
+
+p {
+  font-family: var(--text) !important;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: var(--blue);
+  color: var(--light);
+  height: 3.5rem;
+  width: auto;
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+/* Navigation */
+.main-nav {
+  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12); */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9) !important;
+  background-color: var(--grey-dark) !important;
+}
+
+.main-nav > button:hover {
+  color: var(--blue) !important;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+.underline {
+  width: 100%;
+  border-bottom: 5px solid var(--blue);
+}
